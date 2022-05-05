@@ -1,5 +1,12 @@
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
+  generate:{
+    routes:[
+      'post/how',
+      'post/wow',
+      'post/bault'
+    ]
+  },
   head: {
     title: 'NuxtJsForLearning',
     htmlAttrs: {
